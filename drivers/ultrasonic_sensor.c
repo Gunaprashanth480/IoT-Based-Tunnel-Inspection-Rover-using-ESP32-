@@ -1,4 +1,4 @@
-
+#include <BlynkSimpleEsp32.h>
 #define TRIG_PIN 17
 #define ECHO_PIN 18
 
@@ -18,6 +18,13 @@ long getDistance()
 
     Serial.print("Distance: ");
     Serial.println(distance);
+    
+    Blynk.virtualWrite(V11,distance);
 
-    return distance;
+    // -------- Collision Detection --------
+  if (distance > 0 && distance < COLLISION_DISTANCE) {
+    stopMotors();
+    Serial.println("Obstacle detected! Stopping...");
+  }
 }
+
