@@ -118,11 +118,6 @@ IoT-Based-Tunnel-Inspection-Rover-using-ESP32
 | V12         | Camera Stream Link  |
 
 ---
-## Prototype Images
-![Prototype1](images/prototype1.jpg)
-![Prototype2](images/prototype2.jpg)
-
----
 
 ## Applications
 
