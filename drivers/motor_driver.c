@@ -1,5 +1,3 @@
-#include <Arduino.h>
-#include "motor_driver.h"
 
 #define IN1 27
 #define IN2 26
