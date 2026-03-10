@@ -120,9 +120,9 @@ IoT-Based-Tunnel-Inspection-Rover-using-ESP32
 ---
 ## Prototype Images
 
-![Prototype 1](Images/Prototype1.jpeg)
+![Prototype 1](images/Prototype1.jpeg)
 
-![Prototype 2](Images/Prototype2.jpeg)
+![Prototype 2](images/Prototype2.jpeg)
 
 ---
 
